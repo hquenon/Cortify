@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cortify",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Cortify (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Cortify (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Cortifind_Data",
+            "cwd": "submodules\\Cortifind_Data",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Cortifind_Data (profile mode)",
+            "cwd": "submodules\\Cortifind_Data",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Cortifind_Data (release mode)",
+            "cwd": "submodules\\Cortifind_Data",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
